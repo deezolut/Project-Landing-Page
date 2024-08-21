@@ -8,6 +8,7 @@ body {
     flex-direction: column;
 }
 
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -75,4 +76,41 @@ a {
     justify-content: center;
     align-items: center;
     flex: none;
+}
+
+
+.text2 {
+    text-align: center;
+    color: #898989;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.image2 {
+    width: 140px;
+    height: 140px;
+    border-radius: 7px;
+    border: 3px solid #3882F6;
+    flex: none;
+}
+
+.info2 {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 140px;
+    gap: 5px;
+}
+
+.header2 {
+    margin: 50px 0;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    color: #1F2937;
 }
