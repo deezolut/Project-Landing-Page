@@ -75,7 +75,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: none;
 }
 
 
@@ -86,6 +85,7 @@ a {
 
 .container2 {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -97,7 +97,6 @@ a {
     height: 140px;
     border-radius: 7px;
     border: 3px solid #3882F6;
-    flex: none;
 }
 
 .info2 {
