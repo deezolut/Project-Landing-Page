@@ -174,3 +174,16 @@ a {
 .text4 {
     color: #e5e7eb;
 }
+
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: #e5e7eb;
+    padding: 35px;
+}
