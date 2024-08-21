@@ -114,3 +114,29 @@ a {
     font-weight: 800;
     color: #1F2937;
 }
+
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.container3 {
+    max-width: 700px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.quote {
+    /* font-size: 36px;
+    font-style: italic; */
+    font: italic 300 36px 'monserrat';
+}
+
+.credits {
+    font-weight: bold;
+    align-self: flex-end;
+}
